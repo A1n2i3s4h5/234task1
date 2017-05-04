@@ -71,10 +71,11 @@ background: url(../img/home.jpg) no-repeat center;
 
 #services{
     background-color: #feca05;
-    width: 206px;
+    width: 127px;
+    color: black;
+    padding: 4px 29px 9px 33px;
     font-weight: bold;
     text-align: center;
-    height: 35px;
     position: absolute;
     left: 518px;
     top: 382px;
@@ -125,14 +126,13 @@ float: left;
 	float: left;
 }
 
-.blog{
-margin: 0 auto;
-    width: 1050px;
+.blog-wrap{
+width: 100%;
     overflow: auto;
     
 }
 
-.blog .blog-heading{
+.blog-wrap .blog-heading{
 font-size: 38px;
     text-align: center;
     margin-top: 10px;
@@ -142,17 +142,22 @@ font-size: 38px;
 
 .blog-container{
 overflow: auto;
-width: 1050px;
+width: 1200px;
+margin: 0 auto;
 }
 
 .blog-container .blog-box{
-	margin-top: 70px;
+    margin-right: 40px;
     float: left;
-    width: 348px;
-    height: 335px;
+    width: 350px;
+    overflow: auto;
+    }
 
+.blog-container .blog-sub{
+    width: 350px;
+    height: 50px;
+    float: left;
 }
-
 
 .read-more{
 	font-weight: bolder;
