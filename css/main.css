@@ -8,10 +8,21 @@ width:100%;
 
 }
 
-.main .navigation-wrap,.main .deliver-wrap,.main .detail-wrap,.main .services-wrap,.main .client-wrap{
+.main .navigation-wrap,.main .deliver-wrap,.main .detail-wrap,.main .services-wrap,.main .client-wrap,.main .interested-wrap,.main .subscribe-wrap,.main .contact-us-wrap{
 width: 100%;
 }
 
+.menu{
+    margin:41px 0px 0px 10px;
+    float: right; 
+}
+
+.menu a{
+text-decoration: none;
+    color: #FFF;
+    padding-right: 80px;
+    font-weight: bold;
+}
 .main .client-wrap{
 	background-color: #fff;
 	    border-bottom: 1px solid #DCDCDC;
@@ -19,10 +30,18 @@ width: 100%;
     margin-top: 37px;
 }
 
-.main .subscribe-wrap{
-	width: 100%;
-	background-color: #f00;
+.main .contact-us-wrap{
+    background-color: #000;
+}
+.main .contact{
+    margin:0 auto;
+    max-width: 1300px;
+    min-height: 300px;
+    padding-top: 40px; 
+}
 
+.main .subscribe-wrap{
+    background-color: #DCDCDC;
 }
 
 .main .detail-wrap{
@@ -31,10 +50,11 @@ position: relative;
 }
 
 .navigation-wrap .navigation{
-width:1200px;
+width:1272px;
 margin: 0 auto;
 height: 100px;
 background-color: black;
+overflow: auto;
 }
 
 
@@ -98,6 +118,8 @@ background: url(../img/home.jpg) no-repeat center;
     border: 1px solid #000;
     float: left;
     overflow: auto;
+    padding: 0px 3px;
+    text-align: center;
 }
 
 .services .services-box .service-cnt1{
@@ -135,15 +157,15 @@ width: 100%;
 .blog-wrap .blog-heading{
 font-size: 38px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 140px;
     font-weight: bold;
 }
 
 
 .blog-container{
 overflow: auto;
-width: 1200px;
-margin: 0 auto;
+    width: 1200px;
+    margin: 78px auto 35px;;
 }
 
 .blog-container .blog-box{
@@ -180,10 +202,72 @@ a{
     text-decoration: none;
 }
 
+.interested-heading{
+margin: 69px auto;
+width:1349px;
+}
+
 .subscribe{
-	margin:0 auto;
-	width: 1050px;
-	height: 279px;
-	background-color: #00f;
-	overflow: auto;
+	    margin: 0 auto;
+    width: 1344px;
+    height: 276px;
+    overflow: auto;
+    
+}
+
+#blog-heading {    margin: 0 auto;
+    width: 1344px;
+    height: 276px;
+    overflow: auto;
+    font-size: 2.3em;
+    text-align: center;
+    margin-top: 95px;
+    font-weight: 900;
+}
+
+.subscribe-container{
+overflow: auto;
+    width: 1344px;
+    height: 100px;
+    margin: 78px auto 35px;
+   }
+
+.sub-box{
+    float: left;
+    width: 205px;
+    height: 70px;
+    margin-top: 12px;
+    margin-left: 221px;
+    margin-right: 130px;
+}
+
+.sub-text{
+    font-size: 2em;
+}
+
+input[type=text]{
+        width: 465px;
+    border-radius: 0px;
+    height: 44px;
+    border: 1px solid #d7d7d7;
+}
+
+
+.footer-menu-items{
+  padding: 0px;
+  margin: 0px;
+}
+.footer-menu-items .footer-menu-item-heading{
+  text-decoration: none;
+  color: #999;
+}
+
+.footer-menu-items li{
+    list-style: none;
+    margin: 5px 0px;
+}
+
+.footer-menu-items li a{
+    text-decoration: none;
+    color: #fff;
 }
