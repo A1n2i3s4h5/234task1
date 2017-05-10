@@ -227,7 +227,7 @@ width:1349px;
 }
 
 .subscribe-container{
-overflow: auto;
+overflow: hidden;
     width: 1344px;
     height: 100px;
     margin: 78px auto 35px;
